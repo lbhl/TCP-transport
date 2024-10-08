@@ -1,5 +1,3 @@
-# TCP-transport
-通过TCP协议传输程序  
-开发环境/工具：VMware
+# TCP-transport通过TCP协议传输程序  
 项目描述/功能：通过c语言实现客户端和服务端的TCP通信。Client程序运行后时，启动多线程，一个主线程用来实现和用户交互，另外根据需要启动工作线程。
-Client启动时首先检测Server端是否有版本升级标志，如果有则自动下载客户端程序，下次启动时启动新的Client程序。Client上传Server的所有数据用Base64编码后上传，Server端接收后解码进行存储。所有代码用Git进行版本控制，文档用Markdown编写。
+Client启动时首先检测Server端是否有版本升级标志，如果有则自动下载客户端程序，下次启动时启动新的Client程序。Client上传Server的所有数据用Base64编码后上传，Server端接收后解码进行存储。
